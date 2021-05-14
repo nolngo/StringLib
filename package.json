@@ -1,5 +1,5 @@
 {
-  "name": "stringlib",
+  "name": "stringlib-nn",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,5 +13,8 @@
     "eslint": "^7.26.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.23.0"
+  },
+  "dependencies": {
+    "jest": "^26.6.3"
   }
 }
