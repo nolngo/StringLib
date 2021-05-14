@@ -12,6 +12,6 @@ before_install:
 - npm update
 install:
 - npm install
-script:
+script: 'true'
 - npm test
 - npm run coveralls
