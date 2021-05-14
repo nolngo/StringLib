@@ -64,7 +64,7 @@ function shift(string1, numChar) {
 // Challenge 9
 function makeHashTag(string1) {
   const array = capitalizeWords(string1).split(' ');
-  let hashtags = [];
+  const hashtags = [];
   for (let i = 0; i < array.length; i += 1) {
     const hashtag = `#${array[i]}`;
     hashtags.push(hashtag);
@@ -93,7 +93,7 @@ function runAll() {
   console.log(camelCase('js uses camel case'));
   console.log(shift('Hello world', 4));
   console.log(makeHashTag('beautiful photo mars'));
-  console.log(isEmpty(''));
+  console.log(isEmpty('                '));
   console.log(isEmpty('Nope! Full of Words!'));
 }
 runAll();
