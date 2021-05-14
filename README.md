@@ -1,5 +1,9 @@
 <h1>This is a string manipulation library written by Nolan Ngo.</h1>
 
+[![Build Status](https://travis-ci.com/nolngo/StringLib.svg?branch=main)](https://travis-ci.com/nolngo/StringLib)
+[![Coverage Status](https://coveralls.io/repos/github/nolngo/StringLib/badge.svg?branch=main)](https://coveralls.io/github/nolngo/StringLib?branch=main)
+
+
 <h3>There are 9 methods in this library:</h3>
 <ol>
 <li>capitalize() - Capitalizes the first character of a single string.</li>

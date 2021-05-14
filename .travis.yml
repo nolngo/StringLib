@@ -1,4 +1,3 @@
-script: 'true'
 sudo: false
 language: node_js
 node_js:
@@ -14,5 +13,6 @@ before_install:
 install:
 - npm install
 script:
+- echo "skipping tests"
 - npm test
 - npm run coveralls
