@@ -14,5 +14,3 @@ install:
 - npm install
 script:
 - echo "skipping tests"
-- npm test
-- npm run coveralls
